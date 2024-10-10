@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import { useState } from 'react';
@@ -33,9 +33,9 @@ export default function Contact() {
       ></div>
 
       {/* Form Section */}
-      <main className="relative p-8 min-h-screen flex items-center justify-center bg-opacity-60 bg-white">
-        <div className="bg-white bg-opacity-90 p-8 shadow-lg rounded-lg w-full max-w-md">
-          <h1 className="text-4xl font-bold mb-6 text-center text-green-800">Contact Us</h1>
+      <main className="relative p-4 sm:p-8 min-h-screen flex items-center justify-center bg-opacity-60 bg-white">
+        <div className="bg-white bg-opacity-90 p-6 sm:p-8 shadow-lg rounded-lg w-full max-w-md">
+          <h1 className="text-3xl sm:text-4xl font-bold mb-6 text-center text-green-800">Contact Us</h1>
           
           {/* Show success message if form is submitted */}
           {isSubmitted && (
