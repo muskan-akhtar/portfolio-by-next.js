@@ -34,7 +34,6 @@ export default function Projects() {
         &quot; M y P r o j e c t s&quot;
       </h1>
       <main className="p-4 sm:p-8 flex flex-col items-center">
-        {/* Center content vertically */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <div key={project.title} className="w-full max-w-md">
@@ -45,7 +44,6 @@ export default function Projects() {
                 link={project.link}
               />
               {index < projects.length - 1 && (
-                // Add a line only between cards
                 <hr className="my-4 border-t border-gray-300" />
               )}
             </div>

@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 body {
-  background-image: url('/background.jpg'); /* Apni image ka path yahaan daalain */
-  background-size: cover; /* Image ko cover karne ke liye */
-  background-position: center; /* Center mein position karne ke liye */
-  background-repeat: no-repeat; /* Image ko repeat na hone dene ke liye */
+  background-image: url('/background.jpg'); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
 }
